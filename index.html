@@ -1,267 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jayalakshmi Baskar | PhD Research</title>
 
+  <style>
+    :root {
+      --primary: #1f4e79;
+      --primary-light: #eaf2f8;
+      --text: #222;
+      --muted: #555;
+      --background: #f6f8fa;
+      --card: #ffffff;
+      --border: #dce3ea;
+    }
 
-<html><head>
-   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-   <meta name="Author" content="username">
-   <meta name="GENERATOR" content="Mozilla/4.76 [en]C-CCK-MCD   (Windows NT 5.0; U) [Netscape]"><title>Jayalakshmi Baskar</title></head>
+    * {
+      box-sizing: border-box;
+    }
 
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--background);
+    }
+
+    header {
+      background: linear-gradient(180deg, #ffffff 0%, #f3f7fb 100%);
+      padding: 64px 20px 48px;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+
+    header img {
+      width: 170px;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      border: 4px solid #ffffff;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 10px 0 6px;
+      color: #173b5c;
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-top: 0;
+      font-size: 1.8rem;
+    }
+
+    h3 {
+      margin-top: 28px;
+      color: #333;
+      font-size: 1.2rem;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    .research-tags {
+      margin-top: 18px;
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    nav {
+      background: var(--primary);
+      padding: 12px 16px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover,
+    nav a:focus {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    section {
+      background: var(--card);
+      margin: 20px 0;
+      padding: 36px 32px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 14px rgba(31, 78, 121, 0.06);
+    }
+
+    .highlight-box {
+      background: var(--primary-light);
+      border-left: 5px solid var(--primary);
+      padding: 18px 20px;
+      border-radius: 8px;
+      margin: 18px 0;
+    }
+
+    .keywords {
+      margin-top: 14px;
+    }
+
+    .keywords span {
+      display: inline-block;
+      background: var(--primary-light);
+      color: var(--primary);
+      padding: 8px 12px;
+      margin: 6px 6px 6px 0;
+      border-radius: 20px;
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    .paper-card {
+      background: #f9fbfd;
+      padding: 18px 20px;
+      margin: 16px 0;
+      border-left: 5px solid var(--primary);
+      border-radius: 8px;
+      border-top: 1px solid var(--border);
+      border-right: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .paper-card h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      color: #173b5c;
+    }
+
+    .paper-meta {
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    .status {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 4px 10px;
+      border-radius: 14px;
+      background: var(--primary-light);
+      color: var(--primary);
+      font-size: 0.85rem;
+      font-weight: bold;
+    }
+
+    ul,
+    ol {
+      padding-left: 24px;
+      margin-top: 8px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px 40px;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        padding: 48px 18px 36px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      section {
+        padding: 28px 20px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 6px 8px;
+      }
+    }
+  </style>
+</head>
 
 <body>
-<br>
-<img alt="UmeaUniversityLogo" src="Images\umu_logo_eng.jpg" align="right">
-<br><font size="+3">Jayalakshmi Baskar</font>
-<br>
+  <header>
+    <img src="jayalakshmi_baskar6.png" alt="Portrait of Jayalakshmi Baskar" />
 
-<p>&nbsp;</p>
-<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" id="AutoNumber4" width="97%">
-  <tr>
-    <td align="center" width="201">
-    <img border="0" src="Images/jayalakshmi_baskar6.PNG" width="150" style="height:auto; border-radius:4px;">
-    <td align="right" width="301">
+    <h1>Jayalakshmi Baskar</h1>
+    <p class="subtitle">PhD Student</p>
+    <p>Department of Computing Science, Umeå University, Sweden</p>
 
-	<p align="left"><font size="+1">
-	I am a Ph.D. student in the Department of Computing Science at Umeå University, Sweden, working under the supervision of Prof. Helena Lindgren.
-	</font></p>
+    <p class="research-tags">
+      Human-AI Collaboration · Argumentation · Argument Mining · Reflective AI · Storytelling Systems
+    </p>
+  </header>
 
-	<p align="left"><font size="+1">
-	I completed my Licentiate degree in September 2014. My current research focuses on reflective human-agent dialogues, argumentation-based reasoning, and personalised AI systems that support collaborative decision-making.
-	</font></p>
+  <nav aria-label="Main navigation">
+    <a href="#about">About</a>
+    <a href="#thesis">PhD Thesis</a>
+    <a href="#contributions">Contributions</a>
+    <a href="#publications">Publications</a>
+    <a href="#awards">Awards</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-	<p align="left"><font size="+1">
-	My work bridges cognitive architectures, user modelling, and large language models with computational argumentation and self-evaluation methods, with the aim of enabling intelligent agents to generate purposeful, trustworthy, and adaptive dialogues with humans.
-	</font></p>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
 
-  </tr>
-</table>
+      <p>
+        I am a PhD student in Computing Science at Umeå University, Sweden, working under the supervision of Prof. Helena Lindgren.
+        My research focuses on human-agent interaction, argumentation-based dialogue, and purposeful interaction in health and well-being contexts.
+      </p>
 
-<hr width="100%">
-<p align="center"><font size="+2"><b>Doctoral Thesis</b><br>
-<font size="+1"> 
-</p>
+      <p>
+        I completed my Licentiate degree in September 2014. My doctoral research investigates how AI agents can support people through
+        personalised storytelling, dialogue, collaborative reasoning, and reflective behaviour.
+      </p>
+    </section>
 
-<font size="+1">
+    <section id="thesis">
+      <h2>PhD Thesis</h2>
 
-<p align="center"><b>Adaptive Human-Agent Dialogues for Collaborative Reasoning and Decision-making<br>
- </b>
-</p><ul>
+      <h3>Working Thesis Title</h3>
+      <div class="highlight-box">
+        <strong>Adaptive Human-Agent Dialogues for Collaborative Reasoning and Decision-Making</strong>
+      </div>
 
-<p style="text-align:justify";>
-	<p>Enabling human-agent collaboration, to reason and make decisions collaboratively is challenging. 
-	The system must be able to participate in a purposeful dialogue that includes ability to reference to items mentioned 
-	earlier in the current dialogue and also to keep track of different sub-dialogues. It must also know the topic and 
-	the main goal of a dialogue to be able to make appropriate <i>moves</i>. The major challenge is to endow these 
-	capabilities that allow them to take a role of a pal (friend) that is usually only taken by a human, thus, 
-	making an agent less as a tool that people use and more as a peer or pal that people can collaborate with. 
-	Thus, the whole interaction process is a dynamic one that relies on the capabilities of the agent to personalise and 
-	adapt to the human. </p>
+      <h3>Thesis Focus</h3>
+      <p>
+        My thesis investigates how software agents can take part in purposeful human-agent dialogues that support collaborative reasoning and decision-making.
+        A central challenge is to design agents that can keep track of dialogue goals, refer to earlier parts of an interaction, manage sub-dialogues,
+        and make appropriate dialogue moves in relation to the person and the situation.
+      </p>
 
-	<p> The following are the research questions directing my research: <br>
-	<ol>
-	<li> What knowledge is required to enable dialogue-based human-agent collaboration? 
-	<li> How can a software agent reason and make decisions, in collaboration with a human? 
-	<li> How can a software agent evaluate its own behavior? 
-	<li> How are the collaborative dialogues perceived by humans? </ol></p>
+      <p>
+        The thesis explores how such agents can become more than tools by taking the role of a cognitive companion or coach: an adaptive dialogue partner
+        that can personalise interaction, reason with the person, and reflect on its own behaviour.
+      </p>
 
-	<p> The following are the objectives: 
-	<br>
-	<ul>
-	<li>Objective 1: Identify necessary knowledge and develop a knowledge base that can function as a belief base for a cognitive companion / coach 
-	<li>Objective 2: Develop heuristics for adaptation, reasoning and decision making
-	<li>Objective 3: Develop methods for agent's self evaluation
-	<li>Objective 4: Conduct empirical user studies to evaluate the results
-	</ul></p>
+      <div class="keywords" aria-label="Research keywords">
+        <span>Human-Agent Dialogue</span>
+        <span>Collaborative Reasoning</span>
+        <span>Argumentation</span>
+        <span>Decision-Making</span>
+        <span>Reflective Agent Behaviour</span>
+        <span>Health and Well-being</span>
+      </div>
 
-	<p>The main contributions are:
-	<ul>
-	<li>An instantiated BDI-architecture for a cognitive companion where the developed knowledge base includes knowledge about the human,
+      <h3>Research Questions</h3>
+      <ol>
+        <li>What knowledge is required to enable dialogue-based human-agent collaboration?</li>
+        <li>How can a software agent reason and make decisions in collaboration with a human?</li>
+        <li>How can a software agent evaluate its own behaviour?</li>
+        <li>How are collaborative dialogues perceived by humans?</li>
+      </ol>
+
+      <h3>Objectives</h3>
+      <ul>
+        <li>Identify necessary knowledge and develop a knowledge base that can function as a belief base for a cognitive companion or coach agent.</li>
+        <li>Develop heuristics for adaptation, reasoning, and decision-making.</li>
+        <li>Develop methods for the agent's self-evaluation.</li>
+        <li>Conduct empirical user studies to evaluate the developed concepts, methods, and systems.</li>
+      </ul>
+    </section>
+
+    <section id="contributions">
+      <h2>Thesis Contributions</h2>
+
+      <p>The main contributions of the thesis are:</p>
+      <ul>
+        <li>
+          An instantiated BDI-architecture for a cognitive companion where the developed knowledge base includes knowledge about the human,
 		domain, itself and conducting dialogue activity (Beliefs), the developed heuristics for reasoning and decision making are used for 
 		planning (Intentions), goal setting and adaptation (Desires).
-	<li>A method for combining four types of argument-based dialogues with different purposes within the same framework of collaborative dialogue activity.
-	<li>Results regarding how humans perceive the behaviour of the cognitive companion / coach.
-	</ul>
-	</p>
+        </li>
+        <li>
+          A method for combining four types of argument-based dialogues with different purposes within the same framework of collaborative dialogue activity.
+        </li>
+        <li>
+          Empirical findings on how humans perceive the behaviour of a cognitive companion or coach in health-related dialogue contexts.
+        </li>
+        <li>
+          Recent work extending the thesis toward LLM-based personalised storytelling, argumentation schemes, argument mining, and reflective AI behaviour.
+        </li>
+      </ul>
 
-</p>
-</ul>
+      <h3>Included Thesis Papers</h3>
 
-<br>
-<p> The kappa can be found 
-<a href="Images/giphy.gif" target="_blank">
-	here</a> (will be uploaded soon). 
-</p>
+      <article class="paper-card">
+        <h3>Paper I. Cognitive Architecture of an Agent for Human-Agent Dialogues</h3>
+        <p>
+          <strong>Jayalakshmi Baskar</strong> and Helena Lindgren.
+          <em>Cognitive Architecture of an Agent for Human-Agent Dialogues.</em>
+          In <em>Highlights of Practical Applications of Heterogeneous Multi-Agent Systems. The PAAMS Collection.</em>
+          Communications in Computer and Information Science, vol. 430, pp. 89–100. Springer, 2014.
+        </p>
+        <p><a href="Publications/I Cognitive agent architecture.pdf" target="_blank" rel="noopener">PDF</a></p>
+      </article>
 
-<br>
-<p>
-</p><hr width="100%">
+      <article class="paper-card">
+        <h3>Paper II. Human-Agent Dialogues on Health Topics: An Evaluation Study</h3>
+        <p>
+          <strong>Jayalakshmi Baskar</strong> and Helena Lindgren.
+          <em>Human-Agent Dialogues on Health Topics: An Evaluation Study.</em>
+          In <em>Highlights of Practical Applications of Agents, Multi-Agent Systems, and Sustainability.</em>
+          Communications in Computer and Information Science, vol. 524, pp. 28–39. Springer, 2015.
+        </p>
+        <p><a href="Publications/II PAAMS-15_BaskarLindgren HAIevaluation.pdf" target="_blank" rel="noopener">PDF</a></p>
+      </article>
 
-<p><b>Publications:<br>
- </b>The following articles will be included in the thesis. 
-		
-</p><ul>
-</p>
+      <article class="paper-card">
+        <h3>Paper III. A Multipurpose Goal Model for Personalised Digital Coaching</h3>
+        <p>
+          <strong>Jayalakshmi Baskar</strong>, Rebecka Janols, Esteban Guerrero, Juan Carlos Nieves, and Helena Lindgren.
+          <em>A Multipurpose Goal Model for Personalised Digital Coaching.</em>
+          In <em>Agents and Multi-Agent Systems for Health Care.</em>
+          Lecture Notes in Computer Science, vol. 10685, pp. 94–116. Springer, 2017.
+        </p>
+        <p><a href="Publications/III Multipurpose Goal Model.pdf" target="_blank" rel="noopener">PDF</a></p>
+      </article>
 
-<p>
-<li> Paper I: <br>
-	<b>Jayalakshmi Baskar</b>, Helena Lindgren. 
-	<b>Towards personalised support for monitoring and improving health in risky environments.</b>  
-	In proc. <i>VIII Workshop on Agents Applied in Health Care (A2HC), Murcia, Spain</i>, pp. 93-104, 2013.
-	<a href="Publications/A2HC_13 final.pdf" target="_blank">
-	[pdf]</a>. 
+      <article class="paper-card">
+        <h3>Paper IV. Understanding Human-Diary Agent Collaboration through an Activity-Theoretical Framework</h3>
+        <p>
+          <strong>Jayalakshmi Baskar</strong>, Vera C. Kaelin, and Helena Lindgren.
+          <em>Understanding Human-Diary Agent Collaboration through an Activity-Theoretical Framework.</em>
+          Manuscript submitted to the <em>Journal of Ambient Intelligence and Humanized Computing</em> special issue, 2026.
+        </p>
+        <p class="status">Manuscript under review</p>
+        <p><a href="Publications/IV Diary Agent.pdf" target="_blank" rel="noopener">PDF</a></p>
+      </article>
 
-</p>
+      <article class="paper-card">
+        <h3>Paper V. A Reflective Storytelling Agent for Older Adults</h3>
+        <p>
+          <strong>Jayalakshmi Baskar</strong>, Vera C. Kaelin, Kaan Kilic, and Helena Lindgren.
+          <em>A Reflective Storytelling Agent for Older Adults: Integrating Argumentation Schemes and Argument Mining in LLM-Based Personalised Narratives.</em>
+          Manuscript under major revision for <em>ACM Transactions on Intelligent Systems and Technology</em> special issue, 2026.
+        </p>
+        <p class="status">Major revision</p>
+        <p><a href="Publications/V TIST.pdf" target="_blank" rel="noopener">PDF</a></p>
+      </article>
+    </section>
 
-<p>
-<li> Paper II: <br>
-	<b>Jayalakshmi Baskar</b>, Helena Lindgren. 
-	<b>Cognitive Architecture of an Agent for Human-Agent Dialogues.</b> 
-	In <i>Corchado J.M. et al. (eds) Highlights of Practical Applications of Heterogeneous Multi-Agent Systems. The PAAMS Collection. PAAMS 2014. Communications in Computer and Information Science,</i> 
-	Springer International Publishing, vol 430, pp. 89-100, 2014.
-	<a href="Publications/I Cognitive agent architecture.pdf" target="_blank">
-	[pdf]</a>. 
+    <section id="publications">
+      <h2>Other Publications</h2>
 
-</p>
+      <ul>
+        <li>
+          <strong>Jayalakshmi Baskar</strong>, Vera C. Kaelin, and Helena Lindgren.
+          <em>Experts' Perception of AI-Generated Personalised Stories for Health Promotion.</em>
+          Studies in Health Technology and Informatics, vol. 336, pp. 660–664, 2026.
+          DOI: 10.3233/SHTI260253.
+          <a href="Publications/Other_Publications/1. MIE2026.pdf" target="_blank" rel="noopener">PDF</a>
+        </li>
 
-<p>
-<li> Paper III: <br>
-	<b>Jayalakshmi Baskar</b>, Helena Lindgren. 
-	<b>Human-agent dialogues on health topics-an evaluation study. </b> 
-	In <i>Bajo J. et al. (eds) Highlights of Practical Applications of Agents, Multi-Agent Systems, and Sustainability - The PAAMS Collection. PAAMS 2015. Communications in Computer and Information Science, </i>
-	Springer International Publishing, vol. 524, pp. 28-39, 2015.
-	<a href="Publications/III PAAMS-15_BaskarLindgren HAIevaluation.pdf" target="_blank">
-	[pdf]</a>.
-	
-</p>
+        <li>
+          <strong>Jayalakshmi Baskar</strong>, Kaan Kilic, Vera C. Kaelin, and Helena Lindgren.
+          <em>Towards Collaborative Planning for Health Promotion through Person-Tailored Storytelling and Argumentation.</em>
+          In <em>1st Workshop on Human-AI Collaborative Systems, co-located with ECAI 2025</em>, CEUR Workshop Proceedings, vol. 4072, 2025.
+          <a href="Publications/Other_Publications/2. HAIC2025.pdf" target="_blank" rel="noopener">PDF</a>
+        </li>
 
+        <li>
+          <strong>Jayalakshmi Baskar</strong>, Chunli Yan, and Helena Lindgren.
+          <em>Instrument-Oriented Approach to Detecting and Representing Human Activity for Supporting Executive Functions and Learning.</em>
+          In <em>Proceedings of the European Conference on Cognitive Ergonomics</em>, pp. 105–112. ACM, 2017.
+          DOI: 10.1145/3121283.3121305.
+		  <a href="Publications/Other_Publications/3. Instruments.pdf" target="_blank" rel="noopener">PDF</a>
+        </li>
 
-<p>
-<li> Paper IV: <br>
-	<b>Jayalakshmi Baskar</b>, Chunli Yan, and Helena Lindgren.  
-	<b>Instrument-Oriented Approach to Detecting and Representing Human Activity for Supporting Executive Functions and Learning.</b>  
-	To appear in<i> Proceedings of the European Conference on Cognitive Ergonomics 2017</i> (ECCE 2017). ACM, New York, NY, USA, 105-112. 
-	DOI: <a href="https://doi.org/10.1145/3121283.3121305">https://doi.org/10.1145/3121283.3121305</a>. 
-	<a href="Publications/ECCE-Instruments draft.pdf" target="_blank">
-	[pdf]</a>.
-	
-	
-</p>
+        <li>
+          <strong>Jayalakshmi Baskar</strong> and Helena Lindgren.
+          <em>Human-Agent Dialogues and Their Purposes.</em>
+          In <em>Proceedings of the European Conference on Cognitive Ergonomics</em>, pp. 101–104. ACM, 2017.
+          DOI: 10.1145/3121283.3121303.
+		  <a href="Publications/Other_Publications/4. Human-Agent Dialogues and Their Purposes.pdf" target="_blank" rel="noopener">PDF</a>
+        </li>
 
-<p>
-<li> Paper V: <br>
-	<b>Jayalakshmi Baskar</b>, Rebecka Janols, Esteban Guerrero, Juan Carlos Nieves, and Helena Lindgren. 
-	<b> A Multipurpose Goal Model for Personalised Digital Coaching. </b> 
-	<i>In: Montagna S., Abreu P., Giroux S., Schumacher
-	M. (eds) Agents and Multi-Agent Systems for Health Care. A2HC 2017, AHEALTH 2017.</i> Lecture Notes in Computer Science, 
-	vol 10685, pp 94-116. Springer, Cham.
-	<a href="Publications/A Multipurpose Goal Model for Personalised Digital Coaching.pdf" target="_blank">
-	[submitted pdf]</a>.
-	
-</p>
+        <li>
+          Helena Lindgren, <strong>Jayalakshmi Baskar</strong>, Esteban Guerrero, Juan Carlos Nieves, Ingeborg Nilsson, and Chunli Yan.
+          <em>Computer-Supported Assessment for Tailoring Assistive Technology.</em>
+          In <em>Proceedings of the 6th ACM International Conference on Digital Health</em>, pp. 1–10, 2016.
+		  <a href="Publications/Other_Publications/5. Computer-Supported Assessment for Tailoring Assistive Technology.pdf" target="_blank" rel="noopener">PDF</a>
+        </li>
 
+        <li>
+          Juan Carlos Nieves, Esteban Guerrero, <strong>Jayalakshmi Baskar</strong>, and Helena Lindgren.
+          <em>Deliberative Argumentation for Smart Environments.</em>
+          In <em>PRIMA 2014: Principles and Practice of Multi-Agent Systems</em>, pp. 141–149, 2014.
+          <a href="Publications/Other_Publications/6. Deliberative Argumentation for Smart Environments..pdf" target="_blank" rel="noopener">PDF</a>
+        </li>
 
-<p>
-<li> Paper VI: <br>
-	<b>Jayalakshmi Baskar</b>, Rebecka Janols and Helena Lindgren. 
-	<b>Adaptive and Argument-based Human-Agent Dialogues (tentative title). </b> 
-	<i>Working manuscript, to be submitted to  Journal, 2018</i>.
-	<a href="Images/giphy.gif" target="_blank">
-	[coming soon]</a>.
-	
-</p>
+        <li>
+          <strong>Jayalakshmi Baskar</strong>, Helena Lindgren, Chunli Yan.
+          <em>User's Control of Personalised Intelligent Environments Supporting Health.</em>
+          In <em>Proceedings of the 9th International Conference on Intelligent Environments</em>, pp. 270–273. IEEE, 2013.
+		  <a href="Publications/Other_Publications/7. User's Control of Personalised Intelligent Environments Supporting Health..pdf" target="_blank" rel="noopener">PDF</a>
+        </li>
 
-</ul>
+        <li>
+          Helena Lindgren, Farahnaz Yekeh, <strong>Jayalakshmi Baskar</strong>, and Chunli Yan.
+          <em>Agent-Supported Assessment for Personalized Ambient Assisted Living.</em>
+          In <em>Workshop on Agents Applied in Health Care</em>, pp. 141–150, 2012.
+		  <a href="Publications/Other_Publications/.pdf" target="_blank" rel="noopener">PDF</a>
+        </li>
 
-<p><br>
-</p><hr width="100%">
+        <li>
+          <strong>Jayalakshmi Baskar</strong>, Helena Lindgren, Chunli Yan.
+          <em>Personalisation and User Models for Support in Daily Living.</em>
+          In <em>The 27th Annual Workshop of the Swedish Artificial Intelligence Society</em>, pp. 7–15, 2012.
+		  <a href="Publications/Other_Publications/9. Personalisation and User Models for Support in Daily Living.pdf" target="_blank" rel="noopener">PDF</a>
+        </li>
+      </ul>
+    </section>
 
-<p><b>Other Publications:<br>
- </b>
-</p><ul>
+    <section id="awards">
+      <h2>Awards</h2>
 
-<p>
-<li><b>Jayalakshmi Baskar</b>, Helena Lindgren. 
-	<b>A Semantic Model of Human-agent dialogues. </b> 
-	<i>UMINF report 17.15; Accepted as short paper to ACM European Conference on Cognitive Ergonomics (ECCE-17), Ume&#229, 2017</i>.
-	<a href="Publications/Semantic Model of Human-Agent Dialogues.pdf" target="_blank">
-	[pdf]</a>.
-	<img src="Images/new1.gif" border="0" alt="new" title="new" width="25" height="14">
-	
-</p>
+      <ul>
+        <li>
+          <strong>2014: Award of Scientific Excellence</strong> for the paper
+          <em>Cognitive Architecture of an Agent for Human-Agent Dialogues</em>, PAAMS 2014.
+        </li>
+      </ul>
+    </section>
 
+    <section id="contact">
+      <h2>Contact</h2>
 
+      <p><strong>Email:</strong> <a href="mailto:jaya@cs.umu.se">jaya@cs.umu.se</a></p>
+      <p><strong>Website:</strong> <a href="https://jayalakshmibaskar.com" target="_blank" rel="noopener">jayalakshmibaskar.com</a></p>
+    </section>
+  </main>
 
-<p>
-<li> 
-	Helena Lindgren, <b>Jayalakshmi Baskar</b>, Esteban Guerrero, Rebecka Janols, and Juan Carlos Nieves. 
-	<b>Towards a Multipurpose Goal Model for Personalised Digital Coaching. </b> 
-	In <i>X Workshop on Agents Applied in Health Care (A2HC), Brazil, 2017</i>.
-	<a href="Publications/VI A2HC-17_LindgrenBaskaretal.pdf" target="_blank">
-	[pdf]</a>.
-	
-</p>
-
-<p>
-<li>Helena Lindgren, <b>Jayalakshmi Baskar</b>, Esteban Guerrero, Juan Carlos Nieves, Ingeborg Nilsson, and Chunli Yan.
-	<b>Computer-Supported Assessment for Tailoring Assistive Technology.</b> 
-	In <i>Proceedings of the 6th ACM International Conference on Digital Health Conference, pp. 1-10, 2016.</i>
-	<a href="Publications/II User model.pdf" target="_blank">
-	[pdf]</a>.
-	
-</p>
-
-
-<p>
-<li> Juan Carlos Nieves, Esteban Guerrero, <b>Jayalakshmi Baskar</b>, Helena Lindgren. 
-	<b>Deliberative Argumentation for Smart Environments.</b>  
-	In <i>17th International Conference on Principles and Practice of Multi-Agent Systems (PRIMA 2014), Gold Coast, QLD Australia</i>, pp. 141-149, 2014.
-	<a href="Publications/PRIMA2014.pdf" target="_blank">
-	[pdf]</a>. 
-
-</p>
-
-<p>
-
-<li>
-	<b>Jayalakshmi Baskar</b>, Helena Lindgren, Chunli Yan. 
-	<b>User's control of personalised intelligent environments supporting health.</b> 
-	In <i>Proceedings of the 9th International Conference on Intelligent Environments, Athens, Greece</i>, IEEE Computer Society Press, pp. 270-273, 2013.
-	<a href="Publications/IE13_Jaya camera ready.pdf" target="_blank">
-	[pdf]</a>.
-
-</p><p>
-<li> 
-	Helena Lindgren, Farahnaz Yekeh, <b>Jayalakshmi Baskar</b> and Chunli Yan.  
-	<b>Agent-Supported Assessment for Personalized Ambient Assisted Living.</b>  
-	In <i>proc. Workshop on Agents Applied in Health Care(A2HC), Valencia, Spain</i>, pp. 141-150, 2012. 
-	<a href="Publications/a2hc2012_submission_6.pdf" target="_blank">
-	[pdf]</a>.
-
-</p><p>
-<li> 
-	<b>Jayalakshmi Baskar</b>, Helena Lindgren, Dipak Surie, Chunli Yan, and Farahnaz Yekeh.  
-	<b>Personalisation and User Models for Support in Daily Living.</b>  
-	In <i>The 27th annual workshop of the Swedish Artificial Intelligence Society (SAIS), &#214;rebro, Sweden</i>, pp. 7-15, 2012. 
-	<a href="http://www.ep.liu.se/ecp/071/002/ecp12071002.pdf" target="_blank">
-	[pdf]</a>.
-
-</p>
-
-</ul>
-
-<p><b>Awards:<br>
- </b>
-</p><ul>
-
-</p><p>
-<li> 
-	<b>2014: Award of scientific excellence</b> for the paper <br>
-	<b>Jayalakshmi Baskar</b>, Helena Lindgren. 
-	<b>Cognitive Architecture of an Agent for Human-Agent Dialogues.</b> 
-	In <i>Corchado J.M. et al. (eds) Highlights of Practical Applications of Heterogeneous Multi-Agent Systems. The PAAMS Collection. PAAMS 2014. Communications in Computer and Information Science,</i> 
-	Springer International Publishing, vol 430, pp. 89-100, 2014.
-</ul>
-
-<p><br>
-</p><hr width="100%">
-<br>Jayalakshmi Baskar
-<br><a href="mailto:jaya@cs.umu.se">jaya@cs.umu.se</a>
-</body></html>
+  <footer>
+    © 2026 Jayalakshmi Baskar
+  </footer>
+</body>
+</html>
